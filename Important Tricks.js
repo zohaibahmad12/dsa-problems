@@ -51,3 +51,10 @@
 // Similar for OR and NOT
 
 // See question 1,2,3 for this
+
+
+
+// **********************Trick 5*********************
+// XOR operator is also very important. it works like AND OR NOT operations.
+// XOR return 1 if both bits are different (0 and 1)  and return 0 if both bits are same (1 and 1 or 0 and 0)
+// See question 14 for the use of XOR operator
