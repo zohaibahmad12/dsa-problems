@@ -6,7 +6,7 @@
 // Find duplicate in an unsorted array. Find
 //  Find element that occur exacly 2 time in an unsorted array
 // Find element that occur n/2 time in an unsorted array
-// See Question 9,10,13 to see how hashtbale solve these problems in efficient way
+// See Question 9,10,13,20 to see how hashtbale solve these problems in efficient way
 
 // If we have to solve these with sorted array then dont use hashtable approach
 // because we have more easiest way to solve if sorted array is given
@@ -53,8 +53,20 @@
 // See question 1,2,3 for this
 
 
-
-// **********************Trick 5*********************
+ 
+//                   **********************Trick 5*********************
 // XOR operator is also very important. it works like AND OR NOT operations.
 // XOR return 1 if both bits are different (0 and 1)  and return 0 if both bits are same (1 and 1 or 0 and 0)
 // See question 14 for the use of XOR operator
+
+
+
+
+
+//                      ***********************Trick 6********************
+// 2 pointer approach See question 8(reverse array) and question 16 (intersection of sorted array)
+// and question 18 (sort array of 0s and 1s)
+
+
+//                          *********************Trick 7******************
+// 3 pointer approach See question 19 (sort array of 0s 1s and 2s)
