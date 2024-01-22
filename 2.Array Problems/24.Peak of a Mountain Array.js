@@ -8,17 +8,17 @@ const mountainPeak = (array) => {
     let result;
 
 
-    while (start<=end) {
+    while (start <= end) {
 
-        if (array[mid]>array[mid-1] && array[mid]>array[mid+1]) {
+        if (array[mid] > array[mid - 1] && array[mid] > array[mid + 1]) {
             return mid
         }
-        else if (array[mid]>array[mid+1]) {
-            end = mid-1
+        else if (array[mid] > array[mid + 1]) {
+            end = mid - 1
             mid = Math.floor((start + end) / 2)
         }
-        else if (array[mid]<array[mid+1]) {
-            start = mid+1
+        else if (array[mid] < array[mid + 1]) {
+            start = mid + 1
             mid = Math.floor((start + end) / 2)
         }
     }
@@ -28,6 +28,6 @@ const mountainPeak = (array) => {
 
 }
 
-let array = [0,5,7,2]
+let array = [3, 8, 10, 17, 1]
 
 console.log(mountainPeak(array));
