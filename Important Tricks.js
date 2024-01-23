@@ -70,3 +70,8 @@
 
 //                          *********************Trick 7******************
 // 3 pointer approach See question 19 (sort array of 0s 1s and 2s)
+
+
+
+//                               *************** Trick 8 **************
+// See Binary Search Problems Question 21 to 32
