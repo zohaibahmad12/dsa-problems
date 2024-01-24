@@ -55,7 +55,6 @@ const binarySearch = (array, start, end, num) => {
 const search = (array, element) => {
 
     let pivot = pivotIndex(array)
-
     if (pivot == -1) {
         let start = 0;
         let end = array.length - 1;
@@ -67,7 +66,7 @@ const search = (array, element) => {
         return binarySearch(array, start, end, element)
     }
     else  {
-        let start = pivot;
+        let start = pivot;s
         let end = array.length - 1;
         return binarySearch(array, start, end, element)
     }
@@ -75,7 +74,7 @@ const search = (array, element) => {
 
 
 
-search([3,1],3)
+console.log(search([3,1],3));
 
 
 
