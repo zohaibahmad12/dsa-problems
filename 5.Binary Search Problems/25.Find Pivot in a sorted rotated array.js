@@ -1,5 +1,6 @@
-
-// 7 8 9 1 2 3 4 5 7
+// The point where an sorted array is rotated is pivot point such as
+//  [1,3,5,7,9] => [7,9,1,2,3] This Array is rotated sorted
+// 7 8 9 1 2 3 4 5 7   pivot is 1 here
 const pivot=(array)=>{
 
     let start=0;

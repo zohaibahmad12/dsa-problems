@@ -75,3 +75,10 @@
 
 //                               *************** Trick 8 **************
 // See Binary Search Problems Question 21 to 32
+
+
+
+
+//                              *******************Trick 9****************
+// If reversing the string make the same string as before then the string in palindrome
+// See String Section for question

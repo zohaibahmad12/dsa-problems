@@ -27,5 +27,5 @@ const majorityElement = (array) => {
 }
 
 
-let array = [2,2,1,1,2,2,2]
+let array = [2, 2, 1, 1, 2, 2, 2]
 console.log(majorityElement(array));

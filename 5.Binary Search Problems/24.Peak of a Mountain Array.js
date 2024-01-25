@@ -1,4 +1,4 @@
-
+// First array will go in increasing order and then suddenly go on decreasing [1,3,7,5,4,2]
 // [1,3,7,4,2,0,0]   ==> number which has smaller number on both sides is peak in mountain
 const mountainPeak = (array) => {
 
@@ -8,7 +8,7 @@ const mountainPeak = (array) => {
     let result;
 
 
-    while (start <= end) {
+    while (start <= end) { 
 
         if (array[mid] > array[mid - 1] && array[mid] > array[mid + 1]) {
             return mid

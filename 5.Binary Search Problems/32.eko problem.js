@@ -1,3 +1,5 @@
+// https://www.spoj.com/problems/EKO/      Question Link
+
 const isPossible = (array, k, mid) => {
 
     let totalWood = 0;
