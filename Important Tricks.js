@@ -82,3 +82,10 @@
 //                              *******************Trick 9****************
 // If reversing the string make the same string as before then the string in palindrome
 // See String Section for question
+// Remember There is a difference in char array and strings. char arrays are mutable we can do this
+// in char array array[i]='P' but we cannot do this with string we cannot directly modify a specific
+// index incase of string
+
+
+//                          ***************Trick 10**************************
+// Stack is used in Question 10 of Strings. See That
