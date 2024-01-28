@@ -87,10 +87,8 @@
 // index incase of string
 
 
-//                          ***************Trick 10**************************
-// Stack is used in Question 10 of Strings. See That
 
 
-//                    ********************Trick 11*********************
+//                    ********************Trick 10*********************
 // KADANE'S Algo is very important which is use dto find the maximum subarray sum in a given array
 // See question 13 in Array Problems folder
